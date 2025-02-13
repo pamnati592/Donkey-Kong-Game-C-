@@ -58,7 +58,7 @@ Standard C++ libraries.
 Windows environment with console screen size 80x25.
 Steps:
 Clone the repository: 
-https://github.com/pamnati592/Donkey-Kong-Game-C-
+https://github.com/pamnati592/Donkey-Kong-Game-CPP
 
 Open the solution (.sln) file in Visual Studio.
 Build and run the project using Visual Studio.
