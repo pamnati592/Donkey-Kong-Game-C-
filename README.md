@@ -38,12 +38,19 @@ Screen Files (*.screen):
 These text files define the layout of the level with specific characters representing different elements:
 
 Q: Walls/Boundaries.
+
 &: Donkey Kong.
+
 @: Mario.
+
 $: Pauline.
+
 =, <, >: Floor directions.
+
 H: Ladder.
+
 x: Ghost.
+
 p: Hammer.
 
 Steps Files (*.steps)
@@ -69,20 +76,29 @@ Why use .result files in Silent Mode?
 These files serve as a log to confirm that the game was played and saved correctly. By examining the .result files, you can check whether Mario’s progress (such as lives lost, levels completed, and score) has been accurately recorded. This is especially useful for debugging or verifying gameplay accuracy in an automated environment.
 
 
-Usage
-Installation
+Usage:
+
+Installation:
+
 Prerequisites:
+
 Visual Studio 2022 or later.
+
 Standard C++ libraries.
+
 Windows environment with console screen size 80x25.
+
 Steps:
+
 Clone the repository: 
 https://github.com/pamnati592/Donkey-Kong-Game-CPP
 
 Open the solution (.sln) file in Visual Studio.
+
 Build and run the project using Visual Studio.
 
 Running from Visual Studio:
+
 You can also run the game with these parameters directly from Visual Studio:
 
 Open the project in Visual Studio.
