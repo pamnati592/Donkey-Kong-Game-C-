@@ -31,6 +31,7 @@ Bonus Features
 Color Support: Option to toggle colors on/off in the game.
 Ghosts with Random Movements: Ghosts wander on the floor with a 95% chance of continuing their direction and 5% of changing direction.
 Hammer: Mario can use a hammer to destroy barrels and kill ghosts.
+
 Level Loading from Files: Custom levels can be loaded from .screen files. The game supports dkong_*.screen files for custom layouts.
 File Formats
 Screen Files (*.screen):
@@ -50,6 +51,7 @@ These files track the movements and actions of game entities (e.g., Mario, barre
 
 Result Files (*.result):
 These files record the results of a game session, including Mario’s lives lost, level completion, and score.
+
 Usage
 Installation
 Prerequisites:
