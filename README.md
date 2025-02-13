@@ -46,12 +46,27 @@ H: Ladder.
 x: Ghost.
 p: Hammer.
 
-Steps Files (*.steps):
-These files track the movements and actions of game entities (e.g., Mario, barrels) during gameplay.
+Steps Files (*.steps)
+These files track the movements and actions of game entities (e.g., Mario, barrels) during gameplay. The .steps files are generated during Save mode and are used in Load mode to restore the game to its previous state.
 
-Result Files (*.result):
-These files record the results of a game session, including Mario’s lives lost, level completion, and score.
+When the game is saved, a .steps file is created to record all the relevant actions and movements of the entities in the game. This file stores the precise sequence of events needed to accurately recreate the gameplay state.
 
+When the game is loaded, the .steps file is used to replay the recorded actions and restore the game state exactly as it was at the time of saving. This allows players to continue their progress from where they left off.
+
+Result Files (*.result)
+Purpose:
+The .result files record the results of a game session, including important details such as:
+
+Mario's lives lost
+Level completion status
+Score achieved during the session
+These files are specifically used in Silent Mode to verify if the game has been correctly recorded and saved.
+
+Silent Mode:
+When running the game in Silent Mode (with the -silent flag), no game interface or prompts are shown. The game operates quietly in the background, and the results of the session are recorded in a .result file. This mode is particularly useful for testing or automation, allowing the player (or system) to confirm that the game has been properly logged without needing to observe the session directly.
+
+Why use .result files in Silent Mode?
+These files serve as a log to confirm that the game was played and saved correctly. By examining the .result files, you can check whether Mario’s progress (such as lives lost, levels completed, and score) has been accurately recorded. This is especially useful for debugging or verifying gameplay accuracy in an automated environment.
 Usage
 Installation
 Prerequisites:
