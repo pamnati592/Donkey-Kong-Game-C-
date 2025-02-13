@@ -67,6 +67,8 @@ When running the game in Silent Mode (with the -silent flag), no game interface 
 
 Why use .result files in Silent Mode?
 These files serve as a log to confirm that the game was played and saved correctly. By examining the .result files, you can check whether Mario’s progress (such as lives lost, levels completed, and score) has been accurately recorded. This is especially useful for debugging or verifying gameplay accuracy in an automated environment.
+
+
 Usage
 Installation
 Prerequisites:
